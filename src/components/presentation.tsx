@@ -68,7 +68,7 @@ export function Presentation() {
             animate="visible"
             variants={textVariants}
           >
-            <h1 className="from-foreground to-muted-foreground bg-gradient-to-r bg-clip-text text-xl font-semibold text-transparent md:text-3xl">
+            <h1 className="font-display text-4xl md:text-5xl lg:text-6xl leading-[1.05] tracking-tighter2 text-balance from-foreground to-muted-foreground bg-gradient-to-r bg-clip-text text-transparent">
               {profile.name}
             </h1>
             <div className="mt-1 flex flex-col gap-1 md:flex-row md:items-center md:gap-4">
@@ -82,7 +82,7 @@ export function Presentation() {
             initial="hidden"
             animate="visible"
             variants={paragraphAnimation}
-            className="text-foreground mt-6 leading-relaxed whitespace-pre-line"
+            className="text-[16.5px] leading-7 text-zinc-700 dark:text-zinc-300 mt-6 md:max-w-prose whitespace-pre-line"
           >
             {profile.description}
           </motion.p>
@@ -94,11 +94,11 @@ export function Presentation() {
             transition={{ delay: 0.6, duration: 0.5 }}
             className="mt-4 flex flex-wrap gap-2"
           >
-            {['AI Engineer', 'Python Developer', 'IoT Specialist', 'ML Engineer', 'Freelancer'].map(
+            {['AI/Web3 Engineer', 'TypeScript Developer', 'Solidity Developer', 'Smart Contract Security', 'Coinbase Ambassador'].map(
               (tag) => (
                 <span
                   key={tag}
-                  className="bg-secondary text-secondary-foreground rounded-full px-3 py-1 text-sm"
+                  className="font-mono text-sm tracking-tight bg-zinc-100 text-zinc-800 dark:bg-zinc-800 dark:text-zinc-200 rounded-full px-2.5 py-1"
                 >
                   {tag}
                 </span>

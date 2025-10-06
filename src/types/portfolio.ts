@@ -1,9 +1,10 @@
 export interface PersonalInfo {
   name: string;
-  age: number;
+  age: number | null;
   location: string;
   title: string;
   email: string;
+  phone?: string;
   handle: string;
   bio: string;
   avatar: string;
@@ -51,26 +52,41 @@ export interface ProjectImage {
 }
 
 export interface Project {
+  slug: string;
   title: string;
   category: string;
   description: string;
+  problem?: string;
+  solution?: {
+    architecture: string;
+    bullets: string[];
+  };
+  security?: string[];
+  metrics?: Record<string, string | number | null>;
   techStack: string[];
   date: string;
   status: string;
   featured: boolean;
   achievements?: string[];
-  metrics?: string[];
   links: ProjectLink[];
   images: ProjectImage[];
+  quote?: {
+    text: string;
+    attribution: string;
+  };
+  lessons?: string;
 }
 
 export interface Social {
   linkedin: string;
   github: string;
   twitter: string;
-  kaggle: string;
-  leetcode: string;
-  fiverr: string;
+  securityProfile?: string;
+  code4rena?: string;
+  portfolio?: string;
+  kaggle?: string;
+  leetcode?: string;
+  fiverr?: string;
 }
 
 export interface Internship {
@@ -87,6 +103,7 @@ export interface Internship {
 export interface Personality {
   traits: string[];
   interests: string[];
+  languages?: Record<string, string>;
   funFacts: string[];
   workingStyle: string;
   motivation: string;
@@ -106,6 +123,8 @@ export interface Chatbot {
   personality: string;
   tone: string;
   language: string;
+  greeting?: string;
+  restrictions?: string;
   responseStyle: string;
   useEmojis: boolean;
   topics: string[];

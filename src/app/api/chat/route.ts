@@ -13,8 +13,10 @@ import { getSkills } from './tools/getSkills';
 export const maxDuration = 30;
 
 // Create Google AI provider with explicit API key
+// Using Google AI Studio (not Vertex AI)
 const google = createGoogleGenerativeAI({
   apiKey: process.env.GOOGLE_GENERATIVE_AI_API_KEY,
+  baseURL: 'https://generativelanguage.googleapis.com/v1beta',
 });
 
 // ❌ Pas besoin de l'export ici, Next.js n'aime pas ça
@@ -60,7 +62,7 @@ export async function POST(req: Request) {
     console.log('[CHAT-API] About to call streamText');
     
     const result = await streamText({
-      model: google('gemini-1.5-flash'),
+      model: google('models/gemini-2.5-flash'),
       messages,
       tools,
       maxSteps: 2,

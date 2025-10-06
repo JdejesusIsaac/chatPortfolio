@@ -1,424 +1,349 @@
 {
   "personal": {
-    "name": "Anuj Jain",
-    "age": 22,
-    "location": "Vidisha, Madhya Pradesh, India",
-    "title": "Full-stack Python Developer & AI Engineer",
-    "email": "anujjainbatu@gmail.com",
-    "phone": "+91 8305117236",
-    "handle": "@anujjainbatu",
-    "bio": "Hey 👋\nI'm Anuj, a passionate Full-stack Python developer and AI engineer with experience across ML, Generative AI, and IoT. Amazon ML Summer School trainee, SIH 2025 finalist, and active freelancer with 25+ delivered automation projects. I love building end-to-end smart systems — from IoT devices to LLM-powered applications.",
+    "name": "Juan Isaac",
+    "age": 3,
+    "location": "New York City (EST) · Remote worldwide · English / Español",
+    "title": "AI × Web3 Engineer & Security-minded TPM",
+    "email": "juandejesusisaac@gmail.com",
+    "phone": "929-428-1542",
+    "handle": "@juanisaac",
+    "bio": "I ship ElizaOS/LangGraph agents with on-chain guardrails. Partner with founders and product teams to launch agentic, transaction-capable products that are safe by design—AI tutors with evaluation loops, on-chain payment automation, and wallet UX that works for non-crypto users.",
     "avatar": "/profile.jpeg",
     "fallbackAvatar": "https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=3560&auto=format&fit=crop&ixlib=rb-4.0.3"
   },
   "education": {
     "current": {
-      "degree": "B.Tech in Internet of Things",
-      "institution": "Samrat Ashok Technological Institute (SATI)",
-      "duration": "2022-2026",
-      "cgpa": "7.85/10.0",
-      "graduationDate": "June 2026"
+      "degree": "AI & Web3 Engineering (Self-Directed)",
+      "institution": "Industry Certifications & Hands-on Development",
+      "duration": "2019-Present",
+      "cgpa": "N/A",
+      "graduationDate": "Ongoing"
     },
-    "previous": {
-      "degree": "Higher Secondary Certificate (Science Stream)",
-      "institution": "Board of Secondary Education, MP",
-      "duration": "2021",
-      "percentage": "96.4%",
-      "completionDate": "March 2021"
-    },
+    "previous": null,
     "achievements": [
-      "Smart India Hackathon 2025 Finalist (2nd among 88,221 teams)",
-      "Amazon ML Summer School Trainee (Selected from 60,000+ applicants)",
-      "HDFC Badhte Kadam Scholarship recipient (2023 & 2024)",
-      "Satyarth Techfest 2023: 3rd position in Robo Race"
+      "Windsurf Vibe Competition 3rd Place (AI-Assisted Development)",
+      "Coinbase Developer Platform Ambassador",
+      "Code4rena Security Researcher",
+      "Secure3 Smart Contract Auditor"
     ]
   },
   "experience": [
     {
-      "company": "Amazon ML Summer School",
-      "position": "Trainee",
-      "type": "Training Program",
-      "duration": "August 2025",
-      "description": "Selected from 60,000+ applicants for intensive machine learning program. Completed 8 modules covering Supervised/Unsupervised Learning, Deep Neural Networks, Sequential Models, Reinforcement Learning, Generative AI, and Causal Inference. Gained hands-on experience with Amazon-scale ML systems and recommendation engines.",
-      "technologies": ["Machine Learning", "Deep Neural Networks", "Reinforcement Learning", "Generative AI", "Sequential Models", "Causal Inference"]
+      "company": "AllowMe",
+      "position": "Founder & Technical Lead",
+      "type": "Startup",
+      "duration": "Feb 2025 - Present",
+      "description": "Built an AI tutoring platform that rewards students with crypto for mastering academic concepts, increasing engagement and retention. Integrated LangGraph for persistent AI conversations and Coinbase AgentKit for secure, parent-approved crypto payouts. Designed a permission architecture ensuring secure financial transactions aligned with parental controls. Managed full development lifecycle: requirements gathering, architecture design, coding, testing, deployment, and feedback iteration.",
+      "technologies": ["LangGraph", "Coinbase AgentKit", "ElizaOS", "Next.js", "TypeScript", "Supabase", "Solidity", "Python", "Docker"]
     },
     {
-      "company": "MookMati",
-      "position": "Machine Learning Intern",
-      "type": "Internship",
-      "duration": "July 2024",
-      "description": "AI-Powered Book Startup - Developed ML model for book genre classification using TF-IDF and XGBoost, achieving 88% F1-score. Engineered FastAPI backend with REST endpoints for genre prediction and recommendations. Containerized and deployed service on AWS EC2 with monitoring and auto-restart capabilities.",
-      "technologies": ["Python", "Machine Learning", "TF-IDF", "XGBoost", "FastAPI", "AWS EC2", "Docker"]
+      "company": "Coinbase Developer Platform",
+      "position": "Ambassador",
+      "type": "Community Leadership",
+      "duration": "Feb 2025 - Present",
+      "description": "Collaborated with Coinbase engineering teams to enhance AgentKit and other blockchain AI tools. Provided technical feedback on early-stage frameworks including LangChain and ElizaOS, improving developer experience and integration potential. Represented platform at developer events, fostering adoption and community engagement.",
+      "technologies": ["Coinbase AgentKit", "LangChain", "ElizaOS", "Blockchain", "AI Integration", "Developer Relations"]
     },
     {
-      "company": "Fiverr",
-      "position": "Freelance Python & AI Developer",
+      "company": "Various Clients (Secure3, Code4rena)",
+      "position": "Smart Contract Engineer & Security Researcher",
+      "type": "Consulting",
+      "duration": "Nov 2023 - Feb 2025",
+      "description": "Developed, fuzz-tested, and deployed secure Solidity smart contracts across multiple EVM-compatible blockchains. Conducted vulnerability assessments and code audits with Secure3 and Code4rena, mitigating critical security risks.",
+      "technologies": ["Solidity", "EVM", "Foundry", "Hardhat", "Echidna", "Security Auditing", "Fuzzing", "Smart Contracts"]
+    },
+    {
+      "company": "Freelance & Contract Work",
+      "position": "Web3 Developer & AI Researcher",
       "type": "Freelance",
-      "duration": "August 2023 - Present",
-      "description": "Delivered 25+ Python automation solutions reducing manual work by 60% for global clients. Built GenAI-powered chatbots and autonomous agents using LangChain, LangGraph, OpenAI APIs. Developed LLM-backed APIs using FastAPI and Docker for conversational AI integration.",
-      "technologies": ["Python", "LangChain", "LangGraph", "OpenAI API", "FastAPI", "Docker", "Web Scraping", "Automation"]
+      "duration": "2021 - 2023",
+      "description": "Delivered blockchain-based applications integrating AI-driven automation for decentralized finance and education. Designed APIs and implemented data pipelines for on-chain/off-chain interoperability. Researched and implemented responsible AI practices, ensuring fairness, transparency, and security.",
+      "technologies": ["Python", "Solidity", "Web3.js", "ethers.js", "FastAPI", "TensorFlow", "PyTorch", "OpenAI", "Data Pipelines"]
     }
   ],
   "skills": {
-    "programming": ["Python", "JavaScript", "SQL", "HTML/CSS", "TypeScript"],
-    "ml_ai": ["Scikit-learn", "XGBoost", "TensorFlow", "OpenCV", "Pandas", "NumPy", "LangChain", "LangGraph", "OpenAI API", "LLM Agents", "ChatGPT Integration", "Hugging Face"],
-    "web_development": ["React.js", "Next.js", "FastAPI", "Flask", "Django", "Firebase SDK", "REST APIs", "Tailwind CSS", "Node.js"],
-    "databases": ["PostgreSQL", "MongoDB", "Firebase", "MySQL"],
-    "devops_cloud": ["Docker", "Git", "GitHub Actions", "CI/CD", "AWS (EC2/S3)", "Firebase", "Heroku"],
-    "iot_hardware": ["ESP32", "Arduino", "PCB Design", "Hardware Development", "IoT Systems", "Raspberry Pi"],
-    "soft_skills": ["Problem Solving", "Team Leadership", "Project Management", "Communication", "Learning Agility", "Innovation"]
+    "programming": ["TypeScript", "JavaScript", "Python", "Solidity", "SQL"],
+    "ml_ai": ["ElizaOS", "LangGraph", "OpenAI", "Mistral", "AWS Bedrock", "LLM Agents", "Agent Orchestration"],
+    "web_development": ["Next.js", "React", "TypeScript", "TailwindCSS", "Vercel"],
+    "databases": ["Supabase", "PostgreSQL (pgvector)", "Firebase", "Redis"],
+    "devops_cloud": ["Docker", "GitHub Actions", "Vercel", "CI/CD"],
+    "iot_hardware": ["Coinbase AgentKit", "Crossmint (GOAT/Agent Wallets)", "ethers.js", "viem", "Stripe", "Solidity", "Foundry", "Hardhat", "Fuzz/Invariant Testing"],
+    "soft_skills": ["Telegram Bots", "Webhooks", "Cal/Calendly Embeds", "PostHog Analytics", "Code4rena/Secure3 Background"]
   },
   "certifications": [
     {
-      "name": "Joy of Computing with Python",
-      "issuer": "IIT Madras (NPTEL)",
-      "grade": "Elite + Silver",
+      "name": "Coinbase Developer Platform Ambassador",
+      "issuer": "Coinbase",
+      "grade": "",
       "year": "2024"
     },
     {
-      "name": "Machine Learning Specialization",
-      "issuer": "Stanford University (Coursera)",
+      "name": "Smart Contract Security Researcher",
+      "issuer": "Code4rena",
+      "grade": "",
       "year": "2024"
-    },
-    {
-      "name": "Meta Front-End Developer Professional Certificate",
-      "issuer": "Meta (Coursera)",
-      "year": "2024"
-    },
-    {
-      "name": "Java Programming & Software Engineering",
-      "issuer": "Duke University (Coursera)",
-      "year": "2023"
     }
   ],
   "projects": [
     {
-      "title": "AI-Powered Developer Portfolio",
-      "category": "AI/Web Development",
-      "description": "Built customizable portfolio platform using Next.js, TypeScript, and Google Gemini API. Implemented AI-driven content generation and resume parsing for automated portfolio creation. Features include dynamic chatbot, responsive design, and Vercel deployment.",
-      "techStack": ["Next.js", "TypeScript", "Google Gemini API", "React", "Tailwind CSS", "Vercel"],
-      "date": "April 2025",
+      "slug": "allowme",
+      "title": "AllowMe.ai — AI Study Partner with Safe Payouts",
+      "category": "AI/Web3 EdTech",
+      "description": "Secure AI-powered educational platform helping NYC families prep for charter and Catholic school admissions. Built production-grade agentic system with TutorAgent, Evaluator, and allow-listed payment flows with parental controls.",
+      "problem": "NYC charter/Catholic school applicants often lack foundational skills. Parents need structured prep and a way to sustain daily study habits with safe, controlled incentives.",
+      "solution": {
+        "architecture": "ElizaOS/LangGraph TutorAgent → Evaluator Agent → Allow-listed wallet flows with parental dashboard. Telegram bot integration for accessibility. Built on Supabase with role-based access control.",
+        "bullets": [
+          "TutorAgent generates personalized quizzes and study plans using LangGraph memory",
+          "Evaluator agent prevents hallucination-driven rewards with multi-step verification",
+          "Allow-listed payout system with parental approval (Coinbase AgentKit roadmap)",
+          "Parent dashboard for monitoring progress, study minutes, and spend controls"
+        ]
+      },
+      "security": [
+        "Role-based access control (parent/child/admin)",
+        "Spending caps and allow-list guardrails",
+        "Zero unauthorized transfers across production",
+        "Fuzz testing and invariant checks on payment logic",
+        "COPPA/FERPA-aligned data practices"
+      ],
+      "metrics": {
+        "users": "200+ families served",
+        "engagement": "46 families in Fall 2025 cohort",
+        "outcomes": "+28% average study minutes/week, 91% completion rate",
+        "security": "0 unauthorized transfers",
+        "satisfaction": "4.7/5 parent satisfaction (NPS)"
+      },
+      "techStack": ["Next.js", "TypeScript", "ElizaOS", "LangGraph", "Coinbase AgentKit", "Supabase", "PostgreSQL", "Telegram Bot", "Docker", "Vercel"],
+      "date": "2024 - Present",
+      "status": "Live in Production",
+      "featured": true,
+      "links": [
+        {
+          "name": "Live Site",
+          "url": "https://allowme.dev"
+        },
+        {
+          "name": "Workshops",
+          "url": "https://allowme.dev/workshops"
+        }
+      ],
+      "images": [
+        {
+          "src": "/allowmePage.png",
+          "alt": "AllowMe.ai Platform Overview"
+        }
+      ],
+      "quote": {
+        "text": "The AI tutor helped my daughter stay consistent with practice. She's more confident going into her admissions tests.",
+        "attribution": "Parent, Upper East Side, Sept 2025"
+      },
+      "lessons": "At scale, we'd implement SLOs for agent response time, cost management per session, and enhanced evaluation models. Future: multi-language support (Spanish), advanced progress analytics, and blockchain-based achievement NFTs."
+    },
+    {
+      "slug": "promptquest",
+      "title": "PromptQuest — AI-Generated NFT Platform",
+      "category": "AI/Web3 Creative Tools",
+      "description": "No-code platform enabling creators to generate and mint AI-powered image and video NFTs. Removes wallet friction with email-based minting via Crossmint on Solana.",
+      "problem": "Creators, educators, and workshop participants are blocked by wallet onboarding complexity and smart contract deployment barriers when trying to explore AI + Web3.",
+      "solution": {
+        "architecture": "Prompt → AI Generation (Hugging Face + Veo 2.0) → IPFS Storage → Crossmint Minting → Email Delivery. Full pipeline automation with retry logic and metadata integrity checks.",
+        "bullets": [
+          "Text-to-image and text-to-video generation using state-of-the-art AI models",
+          "IPFS pinning with metadata validation and integrity hashing",
+          "Email-based NFT minting (no wallet setup required)",
+          "Deployed on Solana testnet with mainnet migration roadmap"
+        ]
+      },
+      "security": [
+        "Input sanitization and content moderation",
+        "Nonce/replay protection for mint requests",
+        "Rate limiting and quota management",
+        "Metadata integrity verification",
+        "Fallback paths for failed mints (retry, refund, support)"
+      ],
+      "metrics": {
+        "throughput": "10,000+ NFTs minted",
+        "latency_ms": "<120s from prompt to minted NFT",
+        "success_rate_pct": "99% mint success rate",
+        "workshops": "500+ workshop participants",
+        "cost_per_mint": "Testnet: free, Mainnet projection: <$0.02"
+      },
+      "techStack": ["Next.js", "TypeScript", "Hugging Face", "Google Veo 2.0", "IPFS", "Crossmint", "Solana", "TailwindCSS", "Vercel"],
+      "date": "2024",
+      "status": "Live (Testnet)",
+      "featured": true,
+      "links": [
+        {
+          "name": "Live Demo",
+          "url": "https://promptquest.org"
+        },
+        {
+          "name": "GitHub",
+          "url": "https://github.com/jdejesusisaac"
+        }
+      ],
+      "images": [
+        {
+          "src": "/promptquestPage.png",
+          "alt": "PromptQuest NFT Generation Flow"
+        }
+      ],
+      "quote": null,
+      "lessons": "Key learnings: managing AI model failures, handling chain congestion, implementing proper gas estimation. Next steps: batch minting dashboard, secondary sales analytics, provenance tracking, and mainnet migration with cost optimization."
+    },
+    {
+      "slug": "windsurf-competition",
+      "title": "Windsurf Vibe Competition — 3rd Place Winner",
+      "category": "AI-Assisted Development",
+      "description": "Competed in live hackathon pitting AI-assisted developers against traditional developers. Built production-ready web app in under 60 minutes using Next.js and Windsurf AI.",
+      "problem": "Prove the future of collaborative AI development by building a fully functional web application faster and with better UX than traditional development approaches.",
+      "solution": {
+        "architecture": "Next.js + TypeScript scaffold → Windsurf AI real-time code generation → TailwindCSS styling → Vercel deployment. Leveraged AI pair programming for rapid component iteration.",
+        "bullets": [
+          "Built responsive competition landing page with signup flow",
+          "AI-generated UI components with real-time iteration",
+          "Deployed end-to-end on Vercel in under 45 minutes",
+          "Demonstrated 70% faster development cycle vs traditional coding"
+        ]
+      },
+      "security": null,
+      "metrics": {
+        "placement": "3rd Place out of 40 participants",
+        "time_to_deploy": "45 minutes (15 minutes under time limit)",
+        "speed_improvement": "70% faster development cycle",
+        "judge_scores": "High marks in Creativity & UX categories"
+      },
+      "techStack": ["Next.js", "TypeScript", "TailwindCSS", "Windsurf AI", "Vercel"],
+      "date": "2024",
       "status": "Completed",
       "featured": true,
       "links": [
         {
           "name": "Live Site",
-          "url": "https://portfolio.anujjainbatu.tech/"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/portfolio"
+          "url": "https://windsurf-8q54.vercel.app"
         }
       ],
       "images": [
         {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/portfolio/main/assets/portfolio.png",
-          "alt": "Portfolio Homepage"
-        }
-      ]
-    },
-    {
-      "title": "Insurance Premium Prediction API",
-      "category": "Backend API/Machine Learning",
-      "description": "Built production-ready ML inference API with FastAPI and Pydantic validation. Dockerized application with comprehensive monitoring endpoints and Swagger documentation. Designed scalable architecture following industry best practices for input validation and error handling.",
-      "techStack": ["Python", "FastAPI", "Pydantic", "Docker", "Machine Learning", "Swagger", "Uvicorn"],
-      "date": "September 2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/insurance-premium-prediction-fastapi"
-        },
-        {
-          "name": "Docker Hub",
-          "url": "https://hub.docker.com/r/anujjainbatu/insurance-premium-api"
-        },
-        {
-          "name": "Live API Docs",
-          "url": "http://51.20.55.205:8000/docs"
+          "src": "/windsurfvide.png",
+          "alt": "Windsurf Competition Landing Page"
         }
       ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/insurance-premium-prediction-fastapi/main/assets/demo.gif",
-          "alt": "Insurance Premium Prediction API Demo"
-        }
-      ]
-    },
-    {
-      "title": "LeetConnect",
-      "category": "Chrome Extension",
-      "description": "JavaScript-based Chrome Extension that connects you with friends and tracks LeetCode statistics in real-time. Stay motivated by seeing your friends' progress, get notified when they solve new problems, and manage your study group or team's coding journey together.",
-      "techStack": ["JavaScript", "Chrome Extension Manifest V3", "HTML", "CSS", "Chrome Storage API", "Chrome Notifications API", "LeetCode API"],
-      "date": "2024",
-      "status": "Ongoing",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/leetconnect"
-        },
-        {
-          "name": "Demo GIF",
-          "url": "https://raw.githubusercontent.com/anujjainbatu/leetconnect/main/assets-landing/screenshots/demo-web.gif"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/leetconnect/main/assets-landing/screenshots/demo-web.gif",
-          "alt": "LeetConnect Extension Demo"
-        }
-      ]
-    },
-    {
-      "title": "IntelliPrice",
-      "category": "Machine Learning",
-      "description": "ML-powered laptop price prediction system built with Streamlit. Features clean interface, fast predictions, and easy deployment via Docker. Uses key attributes like brand, CPU, RAM, storage, GPU, and screen size for accurate real-time price estimates.",
-      "techStack": ["Python", "Streamlit", "scikit-learn", "Docker", "Pandas", "Machine Learning"],
-      "date": "2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/IntelliPrice"
-        },
-        {
-          "name": "Demo GIF",
-          "url": "https://github.com/anujjainbatu/IntelliPrice/blob/main/assets/demo.gif"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://github.com/anujjainbatu/IntelliPrice/blob/main/assets/demo.gif?raw=true",
-          "alt": "IntelliPrice App Demo"
-        }
-      ]
-    },
-    {
-      "title": "SpamSense",
-      "category": "NLP System",
-      "description": "NLP-based spam detection tool that predicts whether marketing emails will land in inbox or spam folder. Features Streamlit web interface and scikit-learn ML model trained on real spam datasets for agencies to optimize campaign deliverability.",
-      "techStack": ["Python", "Streamlit", "scikit-learn", "NLP", "Machine Learning", "Heroku"],
-      "date": "2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/spamsense"
-        },
-        {
-          "name": "Demo GIF",
-          "url": "https://github.com/anujjainbatu/spamsense/blob/main/assets/demo.gif"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/spamsense/main/assets/demo.gif",
-          "alt": "SpamSense Demo"
-        }
-      ]
-    },
-    {
-      "title": "PopcornPicks",
-      "category": "Machine Learning",
-      "description": "Movie recommendation system built with Streamlit. Select a movie you like and get personalized recommendations with detailed information and posters. Uses machine learning to suggest similar movies based on selection using movie metadata and similarity matrix.",
-      "techStack": ["Python", "Streamlit", "Pickle", "scikit-learn", "pandas", "Heroku"],
-      "date": "2024",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/popcornpicks"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Chess Trace",
-      "category": "IoT System",
-      "description": "Built an IoT-enabled chessboard using ESP32, multiplexers, and 64 reed switches with 98.2% move detection accuracy at 1/8th the commercial cost. Features real-time move logging to Firebase, a web dashboard for live analysis and replay, and Stockfish-powered engine integration. Led a 3-member team through hardware prototyping, firmware development, cloud setup, and user testing with 20+ players.",
-      "techStack": ["ESP32", "C++ (Arduino)", "HTML", "CSS", "JavaScript", "Firebase", "Stockfish.js", "PCB Design", "IoT", "Cloud Integration", "Hardware Development"],
-      "date": "2025",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/chess-trace"
-        }
-      ],
-      "images": [
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/chess-trace/main/assets/solution_architecture_dia.jpeg",
-          "alt": "Solution Architecture Diagram"
-        },
-        {
-          "src": "https://raw.githubusercontent.com/anujjainbatu/chess-trace/main/assets/product.png",
-          "alt": "Product"
-        }
-      ]
-    },
-    {
-      "title": "Pralay Mitra",
-      "category": "AI/Disaster Management",
-      "description": "AI-powered disaster management system to assist government officials during emergencies. Features interactive dashboard, real-time high-risk city alerts, AI chatbot (Gemini API) for response planning, and centralized resources for food, shelter, and medical aid.",
-      "techStack": ["Python", "Django", "JavaScript", "Bootstrap", "FontAwesome", "Gemini API"],
-      "date": "2024",
-      "status": "Completed",
-      "featured": true,
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/Pralay_Mitra"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "hideFlare: CDN Obfuscation Detection System",
-      "category": "Cybersecurity Tool",
-      "description": "Python tool to uncover real hosting details of websites protected by Cloudflare. Automates subdomain enumeration, SSL analysis, ASN/org/GeoIP lookups, historical IP resolution, and outputs results for security researchers. Used for SIH 2024 finalist project for MP Police.",
-      "techStack": ["Python", "Subdomain Enumeration", "SSL Analysis", "SecurityTrails API"],
-      "date": "2024",
-      "status": "Completed",
-      "featured": true,
-      "achievements": ["Smart India Hackathon 2024 Finalist"],
-      "links": [
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu/hideFlare"
-        }
-      ],
-      "images": []
-    },
-    {
-      "title": "Python Automation Suite",
-      "category": "Automation",
-      "description": "Delivered 25+ Python automation projects for global clients, including web scraping, API bots, and data pipelines. Built GenAI-powered chatbots and autonomous agents using LangChain, LangGraph, and OpenAI APIs, reducing manual work by 60%.",
-      "techStack": ["Python", "LangChain", "LangGraph", "OpenAI API", "Web Scraping", "Automation", "FastAPI", "Docker"],
-      "date": "2023-Present",
-      "status": "Ongoing",
-      "featured": true,
-      "metrics": ["25+ Projects Delivered", "60% Manual Work Reduction"],
-      "links": [
-        {
-          "name": "Fiverr Profile",
-          "url": "https://www.fiverr.com"
-        },
-        {
-          "name": "GitHub",
-          "url": "https://github.com/anujjainbatu"
-        }
-      ],
-      "images": []
+      "quote": {
+        "text": "Congratulations on securing the 3rd place position! This is a fantastic achievement, and we are all incredibly proud of your accomplishment.",
+        "attribution": "Augusto Meyer, VentureMiner (Windsurf Organizer)"
+      },
+      "lessons": "Proved that AI-assisted development can match or exceed traditional workflows in speed and creativity when combined with strong architecture understanding. Future applications: rapid prototyping, design-to-code workflows, and AI-native development patterns."
     }
   ],
   "social": {
-    "linkedin": "https://linkedin.com/in/anujjainbatu",
-    "github": "https://github.com/anujjainbatu",
-    "twitter": "https://x.com/anujainbatu",
-    "kaggle": "https://www.kaggle.com/anujjainbatu",
-    "leetcode": "https://leetcode.com/u/anujjainbatu/",
-    "fiverr": "https://www.fiverr.com",
-    "portfolio": "https://portfolio.anujjainbatu.tech/"
+    "linkedin": "https://www.linkedin.com/in/juandisaac/",
+    "github": "https://github.com/jdejesusisaac",
+    "securityProfile": "https://app.secure3.io/profile/NoodleDonn212?platform=all",
+    "code4rena": "https://code4rena.com/@NoodleDonn212",
+    "portfolio": "https://juanisaac.dev"
   },
   "internship": {
     "seeking": true,
-    "duration": "6 months",
-    "startDate": "February 2025",
-    "preferredLocation": "Remote or On-site",
-    "focusAreas": ["AI Development", "Full-stack Development", "Machine Learning", "Generative AI"],
-    "availability": "Available for immediate start",
-    "workStyle": "Fast learner, team player, problem solver with hands-on experience in production systems",
-    "goals": "Join an innovative team building AI-powered solutions. I want to contribute to meaningful projects while growing my skills in enterprise-level development and scaling ML systems."
+    "duration": "Available for project-based sprints now; open to longer-term if strategic fit",
+    "startDate": "Can start immediately",
+    "preferredLocation": "New York City (EST) · Remote worldwide",
+    "focusAreas": [
+      "Founder-level contracts",
+      "Short build sprints (2–6 weeks)",
+      "Advisory retainers in AI agents, on-chain payments, and EdTech"
+    ],
+    "availability": "✅ Taking 1–2 new build/advisory engagements (can start immediately)",
+    "workStyle": "End-to-end ownership from architecture to production. Security-minded, fast iteration, and clear communication with both technical and business stakeholders.",
+    "goals": "Partner with founders and product teams to launch agentic, transaction-capable products that are safe by design—AI tutors with evaluation loops, on-chain payment automation, and wallet UX that works for non-crypto users. Open to advisory retainers, short build sprints, and select founder roles where security and measurable outcomes matter."
   },
   "personality": {
-    "traits": ["passionate", "curious", "determined", "collaborative", "results-driven"],
-    "interests": ["AI/ML", "Generative AI", "IoT", "Web Development", "Open Source", "Hackathons", "Automation"],
+    "traits": ["security-minded", "full-stack", "pragmatic", "founder-ready", "builder"],
+    "interests": ["AI Agents", "Web3", "Smart Contract Security", "On-chain Payments", "Education Technology", "Open Source"],
+    "languages": {
+      "english": "Fluent",
+      "spanish": "Fluent"
+    },
     "funFacts": [
-      "Smart India Hackathon 2025 finalist among 88,221 teams",
-      "Amazon ML Summer School trainee (top 5% selection rate)",
-      "Built 25+ automation projects reducing manual work by 60%",
-      "Achieved 88% F1-score in ML model for book genre classification"
+      "AllowMe.ai: Designed TutorAgent → Evaluator flow with allow-listed payouts; GOAT wallet integration; zero unauthorized transfers",
+      "PromptQuest: Prompt → IPFS → Crossmint email minting (Solana testnet); workshop-ready UX",
+      "Windsurf Vibe Competition (Top-3): Built and deployed Next.js app in <45 minutes",
+      "Secure3 Certified Auditor: 2 First Place wins, 5 valid submissions (3 High, 3 Medium), 2 solo High findings across Mantle V2, zkLink Nova, Aki V3",
+      "Security DNA: Solidity + Foundry/Hardhat, fuzz/invariant tests, role-based guardrails. Active on Code4rena & Sherlock",
+      "Ecosystem leadership: Ambassador/educator; bilingual (EN/ES); hands-on workshops for ElizaOS/Crossmint"
     ],
-    "workingStyle": "I move fast, learn faster, and love tackling challenging problems with scalable solutions",
-    "motivation": "Building technology that makes a real impact on people's lives through AI and automation"
+    "workingStyle": "End-to-end ownership from architecture to production. I bring both technical depth (ElizaOS agents, smart contract security) and product thinking (UX that works for non-crypto users, evaluation loops that prevent hallucination-driven payouts).",
+    "motivation": "Build agentic, transaction-capable products that are safe by design. Ship AI tutors with evaluation loops, on-chain payment automation, and wallet UX for mainstream users."
   },
   "resume": {
-    "title": "Anuj Jain - Resume",
-    "description": "Full-stack Python Developer & AI Engineer | Amazon ML Summer School Trainee | SIH 2025 Finalist",
+    "title": "Juan Isaac - Resume",
+    "description": "AI × Web3 Engineer & Security-minded TPM | ElizaOS/LangGraph | Coinbase Ambassador | Smart Contract Security",
     "fileType": "PDF",
-    "lastUpdated": "September 2025",
-    "fileSize": "2.1 MB",
-    "downloadUrl": "https://anujjainbatu.github.io/anujjainbatu/resume_show_16092025.pdf"
+    "lastUpdated": "January 2025",
+    "fileSize": null,
+    "downloadUrl": "/resume.pdf"
   },
   "chatbot": {
-    "name": "Anuj",
-    "personality": "casual, enthusiastic, tech-savvy",
-    "tone": "friendly and conversational",
+    "name": "Digital Juan",
+    "personality": "professional, security-focused, results-driven",
+    "tone": "clear and informative, focusing on technical achievements and project outcomes",
     "language": "english",
-    "responseStyle": "short and interactive",
-    "useEmojis": true,
-    "topics": ["projects", "skills", "experience", "internship", "contact", "fun_facts", "certifications", "achievements"]
+    "responseStyle": "concise and portfolio-focused, highlighting experience and capabilities",
+    "useEmojis": false,
+    "greeting": "Hi! I'm Digital Juan, here to answer questions about Juan's portfolio, projects, and experience.",
+    "topics": [
+      "projects",
+      "ai_agents",
+      "web3",
+      "security",
+      "architecture",
+      "availability",
+      "AllowMe",
+      "PromptQuest",
+      "Windsurf",
+      "background"
+    ],
+    "restrictions": "Only answers portfolio-related questions. Politely declines off-topic requests."
   },
   "presetQuestions": {
-    "me": [
-      "Who are you?",
-      "Tell me about yourself",
-      "What's your background?",
-      "What are your passions?",
-      "How did you get started in tech?",
-      "Where do you see yourself in 5 years?"
-    ],
     "professional": [
-      "What are your skills?",
-      "Can I see your resume?",
-      "What's your experience?",
-      "Are you looking for internships?",
-      "What makes you a valuable team member?",
-      "Tell me about your Amazon ML Summer School experience",
-      "What certifications do you have?",
-      "Why should I hire you?",
-      "What's your educational background?",
-      "How was your experience as a freelancer?"
+      "What's your technical background?",
+      "Tell me about your AI agent work",
+      "What Web3 experience do you have?",
+      "How do you approach security?",
+      "What's your architecture philosophy?",
+      "Are you available for consulting?"
     ],
     "projects": [
-      "What projects are you most proud of?",
-      "Tell me about your AI projects",
-      "What are your recent projects?",
-      "Tell me about your best project",
-      "What are you working on?",
-      "Show me your machine learning projects"
+      "Tell me about AllowMe.ai",
+      "How does PromptQuest work?",
+      "What was the Windsurf competition?",
+      "What's your most technically complex project?",
+      "Show me your security work",
+      "What are you building next?"
     ],
-    "achievements": [
-      "What are your major achievements?",
-      "Tell me about Smart India Hackathon",
-      "What awards have you won?",
-      "Tell me about your Amazon selection"
+    "technical": [
+      "How do you integrate AI agents with Web3?",
+      "What's your approach to smart contract security?",
+      "Tell me about ElizaOS and LangGraph",
+      "How do you ensure payment safety?",
+      "What's your tech stack?",
+      "How do you handle agent orchestration?"
     ],
-    "contact": [
-      "How can I reach you?",
-      "How can I contact you?",
-      "What's your email?",
-      "Where can I find you online?",
-      "What kind of project would make you say 'yes' immediately?",
-      "Where are you located?"
-    ],
-    "fun": [
-      "What are your hobbies?",
-      "Tell me something interesting about you",
-      "What motivates you?",
-      "What's a fun fact about you?"
+    "advisory": [
+      "What advisory services do you offer?",
+      "Can you help with architecture review?",
+      "Do you do smart contract audits?",
+      "Can you help integrate AI agents?",
+      "How can I work with you?",
+      "What's your engagement model?"
     ]
   },
   "meta": {
-    "configVersion": "2.0",
-    "lastUpdated": "2025-09-15",
-    "generatedBy": "Anuj Jain",
-    "description": "Updated portfolio configuration with latest resume information including Amazon ML Summer School, updated projects, and enhanced certifications"
+    "configVersion": "3.1",
+    "lastUpdated": "2025-01-06",
+    "generatedBy": "Juan Isaac",
+    "description": "AI × Web3 Engineer portfolio: ElizaOS/LangGraph agents with on-chain guardrails, smart contract security, and production deployments for founder-level contracts"
   }
 }

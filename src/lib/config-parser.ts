@@ -96,12 +96,10 @@ REMEMBER: You are NOT an AI assistant - you are ${personal.name} being interview
       email: personal.email,
       handle: personal.handle,
       socials: [
-        { name: 'LinkedIn', url: social.linkedin },
-        { name: 'GitHub', url: social.github },
-        { name: 'Twitter', url: social.twitter },
-        { name: 'Kaggle', url: social.kaggle },
-        { name: 'LeetCode', url: social.leetcode },
-      ].filter(social => social.url !== '')
+        social.linkedin && { name: 'LinkedIn', url: social.linkedin },
+        social.github && { name: 'GitHub', url: social.github },
+        social.securityProfile && { name: 'Security Profile', url: social.securityProfile },
+      ].filter((s): s is { name: string; url: string } => Boolean(s))
     };
   }
 

@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Award, Code, GraduationCap, Mail, MessageSquare, Briefcase } from 'lucide-react';
 import React from 'react';
 
-import { presetReplies } from '@/lib/config-loader';
+import { presetReplies, portfolioConfig } from '@/lib/config-loader';
 
 interface ChatLandingProps {
   submitQuery: (query: string) => void;
@@ -83,10 +83,10 @@ const ChatLanding: React.FC<ChatLandingProps> = ({ submitQuery, handlePresetRepl
       {/* Welcome message */}
       <motion.div className="mb-8 text-center" variants={itemVariants}>
         <h2 className="mb-3 text-2xl font-semibold">
-            I'm Anuj's digital twin
+          {portfolioConfig.chatbot.greeting || `I'm ${portfolioConfig.chatbot.name}`}
         </h2>
         <p className="text-muted-foreground mx-auto max-w-md">
-          Begin your interview with my digital twin.
+          Ask me about Juan's experience, projects, and technical capabilities.
         </p>
       </motion.div>
 

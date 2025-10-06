@@ -1,58 +1,51 @@
 import { Analytics } from "@vercel/analytics/react"
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
+import { fontSans, fontDisplay, fontMono } from "./fonts";
 import "./globals.css";
 
-// Load Inter font for non-Apple devices
-const inter = Inter({ 
-  subsets: ["latin"],
-  variable: "--font-inter",
-});
-
 export const metadata: Metadata = {
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://juanisaac.dev'),
   title: {
-    default: "Anuj Jain - Full-stack Python Developer & AI Engineer | Professional Portfolio",
-    template: "%s | Anuj Jain Portfolio"
+    default: "Juan Isaac - AI/Web3 Engineer | Secure Agentic Systems",
+    template: "%s | Juan Isaac"
   },
-  description: "Professional portfolio of Anuj Jain - Full-stack Python Developer & AI Engineer. SIH 2025 Finalist showcasing 25+ automation projects, IoT systems, and AI-powered solutions. Available for internships.",
+  description: "AI/Web3 engineer building secure agentic systems with ElizaOS, LangGraph, and Coinbase AgentKit. Founder of AllowMe.ai. Coinbase Ambassador. Smart contract security researcher.",
   keywords: [
-    "Anuj Jain",
-    "Full-stack Developer", 
-    "Python Developer",
+    "Juan Isaac",
     "AI Engineer",
-    "Portfolio",
-    "Software Developer",
-    "Machine Learning",
-    "IoT Developer",
-    "Web Development",
+    "Web3 Developer",
+    "ElizaOS",
+    "LangGraph",
+    "Coinbase AgentKit",
+    "Smart Contract Security",
+    "AI Agents",
+    "Blockchain Developer",
+    "Solidity",
     "Next.js",
-    "React",
-    "FastAPI",
-    "Django",
-    "Automation",
-    "LangChain",
-    "Smart India Hackathon",
-    "Freelancer",
-    "AI Chatbot",
-    "Professional Portfolio",
-    "Developer Portfolio",
-    "Tech Portfolio",
-    "Internship",
-    "Python Automation",
-    "Web Scraping",
-    "API Development"
+    "TypeScript",
+    "Coinbase Ambassador",
+    "Code4rena",
+    "AllowMe.ai",
+    "PromptQuest",
+    "AI Agent Architecture",
+    "Technical PM",
+    "Security Auditing",
+    "Foundry",
+    "Web3 Integration",
+    "Agentic Systems",
+    "Payment Guardrails"
   ],
   authors: [
     {
-      name: "Anuj Jain",
-      url: "https://portfolio.anujjainbatu.tech/",
+      name: "Juan Isaac",
+      url: "https://juanisaac.dev",
     },
   ],
-  creator: "Anuj Jain",
-  publisher: "Anuj Jain",
+  creator: "Juan Isaac",
+  publisher: "Juan Isaac",
   robots: {
     index: true,
     follow: true,
@@ -67,29 +60,29 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://portfolio.anujjainbatu.tech/",
-    title: "Anuj Jain - Full-stack Python Developer & AI Engineer | Professional Portfolio",
-    description: "Professional portfolio showcasing AI-powered projects, IoT systems, and full-stack development. SIH 2025 Finalist with 25+ automation projects. Available for internships.",
-    siteName: "Anuj Jain Portfolio",
+    url: "https://juanisaac.dev",
+    title: "Juan Isaac - AI/Web3 Engineer | Secure Agentic Systems",
+    description: "Building secure AI agents that move money safely onchain. ElizaOS, LangGraph, Coinbase AgentKit, and Solidity expert. Founder of AllowMe.ai.",
+    siteName: "Juan Isaac Portfolio",
     images: [
       {
-        url: "https://portfolio.anujjainbatu.tech/portfolio.png",
+        url: "https://juanisaac.dev/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Anuj Jain - Professional Portfolio with AI Chatbot",
+        alt: "Juan Isaac - AI/Web3 Engineer Portfolio",
         type: "image/png",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Anuj Jain - Full-stack Python Developer & AI Engineer",
-    description: "Professional portfolio showcasing AI projects, IoT systems, and automation solutions. SIH 2025 Finalist available for internships.",
-    creator: "@anujainbatu",
-    site: "@anujainbatu",
+    title: "Juan Isaac - AI/Web3 Engineer",
+    description: "Building secure AI agents with ElizaOS, LangGraph, and Coinbase AgentKit. Smart contract security researcher.",
+    creator: "@juanisaac",
+    site: "@juanisaac",
     images: [{
-      url: "https://portfolio.anujjainbatu.tech/portfolio.png",
-      alt: "Anuj Jain Professional Portfolio"
+      url: "https://juanisaac.dev/og-image.png",
+      alt: "Juan Isaac Portfolio"
     }],
   },
   icons: {
@@ -104,7 +97,7 @@ export const metadata: Metadata = {
   },
   manifest: "/manifest.json",
   alternates: {
-    canonical: "https://portfolio.anujjainbatu.tech/",
+    canonical: "https://juanisaac.dev",
   },
   category: "technology",
   classification: "Portfolio Website",
@@ -119,52 +112,51 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en" className={`${fontSans.variable} ${fontDisplay.variable} ${fontMono.variable}`} suppressHydrationWarning>
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="canonical" href="https://portfolio.anujjainbatu.tech/" />
+        <link rel="canonical" href="https://juanisaac.dev" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "Person",
-              "name": "Anuj Jain",
-              "jobTitle": "Full-stack Python Developer & AI Engineer",
-              "url": "https://portfolio.anujjainbatu.tech/",
-              "image": "https://portfolio.anujjainbatu.tech/profile.jpeg",
+              "name": "Juan Isaac",
+              "jobTitle": "AI/Web3 Engineer & Technical PM",
+              "url": "https://juanisaac.dev",
+              "image": "https://juanisaac.dev/profile.jpeg",
               "sameAs": [
-                "https://github.com/anujjainbatu",
-                "https://linkedin.com/in/anujjainbatu",
-                "https://x.com/anujainbatu"
+                "https://github.com/juanisaac",
+                "https://linkedin.com/in/juanisaac",
+                "https://x.com/juanisaac"
               ],
               "worksFor": {
                 "@type": "Organization",
-                "name": "Freelance"
-              },
-              "alumniOf": {
-                "@type": "Organization",
-                "name": "SATI"
+                "name": "AllowMe.ai"
               },
               "knowsAbout": [
-                "Python Development",
-                "AI Engineering",
-                "Machine Learning",
-                "IoT Systems",
-                "Web Development",
-                "Automation",
-                "Full Stack Development"
+                "AI Agents",
+                "ElizaOS",
+                "LangGraph",
+                "Coinbase AgentKit",
+                "Smart Contract Security",
+                "Solidity",
+                "Web3 Development",
+                "Blockchain",
+                "Security Auditing",
+                "Next.js",
+                "TypeScript"
               ],
-              "description": "Full-stack Python Developer & AI Engineer with expertise in building AI-powered solutions, IoT systems, and automation tools. SIH 2025 Finalist with 25+ delivered projects."
+              "description": "AI/Web3 engineer building secure agentic systems. Founder of AllowMe.ai. Coinbase Developer Platform Ambassador. Smart contract security researcher at Code4rena and Secure3."
             })
           }}
         />
       </head>
       <body
         className={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          inter.variable,
+          "min-h-screen bg-background font-sans antialiased text-zinc-900 selection:bg-zinc-900 selection:text-white dark:text-zinc-100 dark:selection:bg-zinc-100 dark:selection:text-zinc-900"
         )}
       >
         <ThemeProvider

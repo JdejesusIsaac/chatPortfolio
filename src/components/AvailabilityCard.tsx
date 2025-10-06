@@ -63,16 +63,16 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div className="bg-muted h-16 w-16 overflow-hidden rounded-full shadow-md">
             <img
               src="/profile.jpeg"
-              alt="Anuj's avatar"
+              alt="Juan's avatar"
               className="h-full w-full object-cover object-[center_top_-5%] scale-95"
             />
           </div>
           <div>
             <h2 className="text-foreground text-2xl font-semibold">
-              Anuj Jain
+              Juan Isaac
             </h2>
             <p className="text-muted-foreground text-sm">
-              Available for Opportunities
+              AI × Web3 Engineer & Security-minded TPM
             </p>
           </div>
         </div>
@@ -87,7 +87,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
             Available Now
           </span>
           <p className="text-xs text-muted-foreground text-center sm:text-right">
-            Open to full-time & internship roles
+            Taking 1–2 new build/advisory engagements
           </p>
         </div>
       </div>
@@ -98,19 +98,19 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div className="h-8 w-8 rounded-full bg-green-500 flex items-center justify-center">
             <Briefcase className="h-4 w-4 text-white" />
           </div>
-          <h3 className="text-lg font-semibold text-foreground">Current Availability Status</h3>
+          <h3 className="font-display text-2xl md:text-3xl tracking-tightish leading-tight text-foreground">Current Availability Status</h3>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div>
             <p className="text-sm font-medium text-foreground mb-1">Status</p>
             <p className="text-sm text-green-600 dark:text-green-400 font-semibold">
-              {data?.availability || "✅ Available for immediate start"}
+              ✅ Available for immediate start
             </p>
           </div>
           <div>
             <p className="text-sm font-medium text-foreground mb-1">Looking for</p>
             <p className="text-sm text-blue-600 dark:text-blue-400 font-semibold">
-              Full-time roles, Internships & Contract work
+              Founder-level contracts • Short build sprints (2–6 weeks) • Advisory retainers in AI agents, on-chain payments, and EdTech
             </p>
           </div>
         </div>
@@ -123,7 +123,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div>
             <p className="text-foreground text-sm font-medium">Duration</p>
             <p className="text-muted-foreground text-sm">
-              {data?.availability || "Available for full-time roles starting immediately"}
+              Available for project-based sprints now; open to longer-term if strategic fit
             </p>
           </div>
         </div>
@@ -132,7 +132,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           <div>
             <p className="text-foreground text-sm font-medium">Location</p>
             <p className="text-muted-foreground text-sm">
-              {data?.preferences.location || "Based in India, open to relocation for the right opportunity 🇮🇳"}
+              New York City (EST) · Remote worldwide · English / Español
             </p>
           </div>
         </div>
@@ -144,28 +144,15 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
             <p className="text-foreground text-sm font-medium">Tech stack</p>
             <div className="text-muted-foreground grid grid-cols-1 gap-y-1 text-sm sm:grid-cols-2">
               <ul className="decoration-none list-disc pl-4">
-                {data?.skills.technical.slice(0, 4).map((skill, index) => (
-                  <li key={index}>{skill}</li>
-                )) || (
-                  <>
-                    <li>Python, SQL, JavaScript, HTML/CSS</li>
-                    <li>FastAPI, Flask, Django, React.js</li>
-                    <li>Scikit-learn, XGBoost, TensorFlow, OpenCV</li>
-                    <li>OpenAI API, LangChain, LangGraph</li>
-                  </>
-                )}
+                <li>Frontend: Next.js, React, TypeScript, Tailwind</li>
+                <li>AI/Agents: ElizaOS, LangGraph, OpenAI, Mistral, AWS Bedrock</li>
+                <li>Web3/Payments: Coinbase AgentKit, Crossmint, ethers/viem, Stripe</li>
+                <li>Smart Contracts: Solidity, Foundry, Hardhat, fuzz/invariant testing</li>
               </ul>
               <ul className="list-disc pl-4">
-                {data?.skills.technical.slice(4, 8).map((skill, index) => (
-                  <li key={index}>{skill}</li>
-                )) || (
-                  <>
-                    <li>Docker, Git, GitHub Actions, AWS</li>
-                    <li>Firebase, Heroku, ESP32, IoT</li>
-                    <li>Machine Learning, AI Agents</li>
-                    <li>Web Scraping, Automation</li>
-                  </>
-                )}
+                <li>Data/Infra: Supabase/Postgres (pgvector), Firebase, Redis, Docker</li>
+                <li>Messaging/UX: Telegram bots, webhooks, Cal/Calendly, PostHog</li>
+                <li>Security: Code4rena/Secure3 background, role-based guardrails</li>
                 <li>
                   <a
                     href="/?query=What%20are%20your%20skills%3F%20Give%20me%20a%20list%20of%20your%20soft%20and%20hard%20skills."
@@ -182,21 +169,24 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
 
       {/* What I bring */}
       <div className="mt-10">
-        <p className="text-foreground mb-2 text-lg font-semibold">
+        <p className="font-display text-2xl tracking-tightish leading-tight text-foreground mb-2">
           What I bring
         </p>
-        <p className="text-foreground text-sm">
-          {data?.experience.internshipCompleted || "Real-world ML experience from MookMati (Genre classification, FastAPI deployment, AWS)."} <br /> 
-          {data?.achievements[0] || "2nd position in Smart India Hackathon 2025 among 88,221 teams with hideFlare cybersecurity tool."} <br /> 
-          {data?.experience.freelanceWork || "25+ freelance automation projects delivered on Fiverr, cutting manual work by 60%."}
-        </p>
+        <div className="text-foreground text-sm space-y-2">
+          <p><strong>AllowMe.ai:</strong> Designed TutorAgent → Evaluator flow with allow-listed payouts; GOAT wallet integration to send ETH; zero unauthorized transfers in testing; parent audit trail.</p>
+          <p><strong>PromptQuest:</strong> Prompt → image/video generation → IPFS → Crossmint email minting (Solana testnet); workshop-ready UX for creators/educators.</p>
+          <p><strong>Windsurf Vibe Competition (Top-3):</strong> Built and deployed a live Next.js app in &lt;45 minutes using AI-assisted development.</p>
+          <p><strong>Secure3 Certified Auditor:</strong> 2 First Place wins, 5 valid submissions (3 High, 3 Medium severity), 2 solo High findings. Active on Code4rena & Sherlock.</p>
+          <p><strong>Security DNA:</strong> Solidity + Foundry/Hardhat, fuzz/invariant tests, role-based guardrails, on-chain assertions.</p>
+          <p><strong>Ecosystem leadership:</strong> Coinbase Ambassador/educator; bilingual (EN/ES); hands-on workshops for ElizaOS/Crossmint agent patterns.</p>
+        </div>
       </div>
 
       {/* Goal */}
       <div className="mt-8">
-        <p className="text-foreground mb-2 text-lg font-semibold">Goal</p>
+        <p className="font-display text-2xl tracking-tightish leading-tight text-foreground mb-2">Goal</p>
         <p className="text-foreground text-sm">
-          {data?.lookingFor.growthOpportunities || "Looking for roles that offer learning and advancement opportunities with experienced teams."} I want to work on {data?.lookingFor.technicalChallenges || "cutting-edge technologies"} that {data?.lookingFor.impactfulWork || "solve real-world problems and make a meaningful impact"}. I'm passionate, adaptable, and ready to contribute to {data?.lookingFor.collaboration || "collaborative, innovative environments"}! 🚀
+          Partner with founders and product teams to launch agentic, transaction-capable products that are safe by design—AI tutors with evaluation loops, on-chain payment automation, and wallet UX that works for non-crypto users. Open to advisory retainers, short build sprints, and select founder roles where security and measurable outcomes matter.
         </p>
       </div>
 
@@ -206,7 +196,7 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           onClick={handleContactClick}
           className="cursor-pointer rounded-full bg-black px-6 py-3 font-semibold text-white transition-colors duration-300 hover:bg-zinc-800"
         >
-          Contact me
+          Book a 15-min Architecture Intro
         </button>
       </div>
     </motion.div>

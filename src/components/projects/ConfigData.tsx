@@ -60,13 +60,13 @@ const ProjectContent = ({ project }: { project: { title: string } }) => {
             </div>
           )}
           
-          {projectData.metrics && (
+          {projectData.metrics && typeof projectData.metrics === 'object' && (
             <div>
               <h4 className="font-medium mb-1">Key Metrics</h4>
               <div className="flex flex-wrap gap-2">
-                {projectData.metrics.map((metric, index) => (
-                  <span key={index} className="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">
-                    {metric}
+                {Object.entries(projectData.metrics).map(([key, value]) => (
+                  <span key={key} className="text-sm bg-blue-100 text-blue-800 px-2 py-1 rounded">
+                    {key.replace(/_/g, ' ')}: {value || 'N/A'}
                   </span>
                 ))}
               </div>

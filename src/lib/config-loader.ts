@@ -107,6 +107,7 @@ const configParser = new ConfigParser(portfolioConfig);
 // Export configuration and parsed data
 export const getConfig = (): PortfolioConfig => portfolioConfig;
 export const getConfigParser = (): ConfigParser => configParser;
+export { portfolioConfig };
 
 // Export pre-parsed common data for easy access
 export const systemPrompt = configParser.generateSystemPrompt();
