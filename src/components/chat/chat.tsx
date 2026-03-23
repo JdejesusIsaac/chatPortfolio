@@ -20,8 +20,7 @@ import {
 import HelperBoost from './HelperBoost';
 
 // ClientOnly component for client-side rendering
-//@ts-ignore
-const ClientOnly = ({ children }) => {
+const ClientOnly = ({ children }: { children: React.ReactNode }) => {
   const [hasMounted, setHasMounted] = useState(false);
 
   useEffect(() => {
@@ -115,7 +114,7 @@ const Chat = () => {
       // Handle specific error types
       if (error.message?.includes('quota') || error.message?.includes('exceeded') || error.message?.includes('429')) {
         // Show a friendly notification for quota issues
-        toast.error('⚠️ API Quota Exhausted! Free Gemini API limit reached. Please contact Anuj directly or use preset questions. Thank you for understanding! 🙏', {
+        toast.error('⚠️ API Quota Exhausted! Free Gemini API limit reached. Please contact Juan directly or use preset questions. Thank you for understanding! 🙏', {
           duration: 6000, // Show for 6 seconds
           style: {
             background: '#fef3c7',
@@ -133,7 +132,7 @@ const Chat = () => {
         try {
           append({
             role: 'assistant',
-            content: '⚠️ **API Quota Exhausted**\n\nFree Gemini API limit reached. Please contact Anuj directly or use preset questions below.',
+            content: '⚠️ **API Quota Exhausted**\n\nFree Gemini API limit reached. Please contact Juan directly or use preset questions below.',
           });
         } catch (appendError) {
           console.error('Failed to append error message:', appendError);
@@ -194,8 +193,7 @@ const Chat = () => {
       )
   );
 
-  //@ts-ignore
-  const submitQuery = (query) => {
+  const submitQuery = (query: string) => {
     if (!query.trim() || isToolInProgress) return;
     
     // Clear any previous error message
@@ -217,8 +215,7 @@ const Chat = () => {
     });
   };
 
-  //@ts-ignore
-  const submitQueryToAI = (query) => {
+  const submitQueryToAI = (query: string) => {
     if (!query.trim() || isToolInProgress) return;
     
     // Clear any previous error message
@@ -233,14 +230,12 @@ const Chat = () => {
     });
   };
 
-  //@ts-ignore
-  const handlePresetReply = (question, reply, tool) => {
+  const handlePresetReply = (question: string, reply: string, tool: string) => {
     setPresetReply({ question, reply, tool });
     setLoadingSubmit(false);
   };
 
-  //@ts-ignore
-  const handleGetAIResponse = (question, tool) => {
+  const handleGetAIResponse = (question: string, tool: string) => {
     setPresetReply(null);
     submitQueryToAI(question); // Use the new function that bypasses presets
   };
@@ -253,8 +248,7 @@ const Chat = () => {
     }
   }, [initialQuery, autoSubmitted]);
 
-  //@ts-ignore
-  const onSubmit = (e) => {
+  const onSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!input.trim() || isToolInProgress) return;
     submitQueryToAI(input); // User input should go directly to AI
@@ -280,7 +274,7 @@ const Chat = () => {
         className="fixed top-0 right-0 left-0 z-50"
         style={{
           background:
-            'linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.95) 30%, rgba(255, 255, 255, 0.8) 50%, rgba(255, 255, 255, 0) 100%)',
+            'linear-gradient(to bottom, hsl(var(--background)) 0%, hsl(var(--background)/0.95) 30%, hsl(var(--background)/0.8) 50%, hsl(var(--background)/0) 100%)',
         }}
       >
         <div
@@ -445,7 +439,7 @@ const Chat = () => {
         </div>
 
         {/* Fixed Bottom Bar */}
-        <div className="sticky bottom-0 bg-white px-2 pt-3 md:px-0 md:pb-4">
+        <div className="sticky bottom-0 bg-background px-2 pt-3 md:px-0 md:pb-4">
           <div className="relative flex flex-col items-center gap-3">
             <HelperBoost 
               submitQuery={submitQuery} 

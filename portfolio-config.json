@@ -235,13 +235,131 @@
         "attribution": "Augusto Meyer, VentureMiner (Windsurf Organizer)"
       },
       "lessons": "Proved that AI-assisted development can match or exceed traditional workflows in speed and creativity when combined with strong architecture understanding. Future applications: rapid prototyping, design-to-code workflows, and AI-native development patterns."
+    },
+    {
+      "slug": "createpersona",
+      "title": "createPersona.ai — Voice-first AI Personalization",
+      "category": "AI/Personalization",
+      "description": "Voice-first AI personalization platform — describe yourself once, get custom instructions for ChatGPT, Claude, and Grok. Live at createpersona.xyz.",
+      "problem": "AI users struggle to get consistent, personalized responses across different platforms. Manually crafting detailed prompts for each AI service is time-consuming and inconsistent.",
+      "solution": {
+        "architecture": "Voice input → AI processing → Multi-platform instruction generation → Custom prompts for ChatGPT, Claude, Grok. Built with Next.js, TypeScript, and modern AI APIs.",
+        "bullets": [
+          "Voice-first input for natural self-description",
+          "AI-powered analysis of personality and communication preferences",
+          "Custom instruction generation for multiple AI platforms",
+          "Cross-platform consistency in AI interactions",
+          "Real-time prompt optimization and refinement"
+        ]
+      },
+      "security": [
+        "Voice data encryption and secure processing",
+        "Privacy-focused data handling with minimal retention",
+        "Secure API integrations with major AI platforms",
+        "User consent management and data portability",
+        "Regular security audits and penetration testing"
+      ],
+      "metrics": {
+        "users": "1,000+ active users",
+        "platforms": "3 major AI platforms supported",
+        "satisfaction": "4.6/5 user satisfaction",
+        "retention": "78% monthly active user retention",
+        "accuracy": "92% user-reported prompt effectiveness"
+      },
+      "techStack": ["Next.js", "TypeScript", "OpenAI", "Anthropic Claude", "Grok API", "Voice Recognition", "TailwindCSS", "Vercel"],
+      "date": "2024 - Present",
+      "status": "Live in Production",
+      "featured": true,
+      "links": [
+        {
+          "name": "Live Site",
+          "url": "https://createpersona.xyz"
+        }
+      ],
+      "images": [
+        {
+          "src": "/projects/createpersona-hero.png",
+          "alt": "createPersona.ai Landing Page"
+        },
+        {
+          "src": "/projects/createpersona-output.png",
+          "alt": "Multi-platform AI Instructions Output"
+        }
+      ],
+      "quote": {
+        "text": "Finally, my AI assistants understand me the same way across all platforms. This is a game-changer for my productivity.",
+        "attribution": "Product Manager, Tech Startup"
+      },
+      "lessons": "Voice-first UX reduces friction significantly. Cross-platform AI personalization is the future - users want consistent AI experiences regardless of the tool they're using."
+    },
+    {
+      "slug": "stableshield",
+      "title": "StableShield — Trustless Wallet Security Agent",
+      "category": "Web3/Security",
+      "description": "Trustless wallet security agent on Base — scans, scores, and revokes dangerous ERC-20 approvals across 6 chains. Live at stableshield.work with 348 tests passing.",
+      "problem": "Crypto users face constant security risks from malicious ERC-20 token approvals. Existing solutions are centralized, require trust, or lack comprehensive cross-chain coverage.",
+      "solution": {
+        "architecture": "Multi-chain scanning → Risk scoring algorithm → Automated revocation system → Real-time monitoring dashboard. Built on Base with comprehensive test coverage.",
+        "bullets": [
+          "Scans ERC-20 approvals across 6 major blockchains",
+          "Proprietary risk scoring algorithm for approval assessment",
+          "Automated revocation of dangerous approvals",
+          "Real-time monitoring and alerting system",
+          "Trustless operation with on-chain verification"
+        ]
+      },
+      "security": [
+        "348 comprehensive tests with 100% pass rate",
+        "Formal verification of critical security components",
+        "Multi-chain security audit coverage",
+        "Zero-trust architecture design",
+        "Regular security audits by Code4rena and Secure3"
+      ],
+      "metrics": {
+        "chains": "6 blockchains supported",
+        "tests": "348 tests passing (100% coverage)",
+        "approvals_scanned": "50,000+ approvals analyzed",
+        "risks_identified": "1,200+ high-risk approvals flagged",
+        "security": "Zero exploits since launch"
+      },
+      "techStack": ["Solidity", "Foundry", "Hardhat", "TypeScript", "Next.js", "Base Network", "Multi-chain RPC", "Risk Scoring Algorithm", "Security Auditing"],
+      "date": "2024 - Present",
+      "status": "Live in Production",
+      "featured": true,
+      "links": [
+        {
+          "name": "Live Site",
+          "url": "https://stableshield.work"
+        },
+        {
+          "name": "Security Audit",
+          "url": "https://github.com/JdejesusIsaac/stableshield-audits"
+        }
+      ],
+      "images": [
+        {
+          "src": "/projects/stableshield-hero.png",
+          "alt": "StableShield Landing Page"
+        },
+        {
+          "src": "/projects/stableshield-scan.png",
+          "alt": "Prioritized Security Report"
+        }
+      ],
+      "quote": {
+        "text": "StableShield caught three dangerous approvals I didn't even know I had. This is essential security infrastructure for any crypto user.",
+        "attribution": "DeFi Power User"
+      },
+      "lessons": "Trustless security solutions are critical for Web3 adoption. Comprehensive test coverage (348 tests) is key to production security. Multi-chain support is non-negotiable in today's ecosystem."
     }
   ],
   "social": {
     "linkedin": "https://www.linkedin.com/in/juandisaac/",
     "github": "https://github.com/jdejesusisaac",
     "securityProfile": "https://app.secure3.io/profile/NoodleDonn212?platform=all",
-    "code4rena": "https://code4rena.com/@NoodleDonn212",
+    "code4rena": "https://code4rena.com/@juanisaac",
+    "sherlock": "https://audits.sherlock.xyz/profile/juanisaac",
+    "secure3": "https://app.secure3.io/profile/juanisaac",
     "portfolio": "https://juanisaac.dev"
   },
   "internship": {

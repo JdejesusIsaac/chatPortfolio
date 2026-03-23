@@ -4,7 +4,7 @@ import { z } from 'zod';
 
 import { SYSTEM_PROMPT } from './prompt';
 import { getContact } from './tools/getContact';
-import { getInternship } from './tools/getIntership';
+import { getInternship } from './tools/getInternship';
 import { getPresentation } from './tools/getPresentation';
 import { getProjects } from './tools/getProjects';
 import { getResume } from './tools/getResume';

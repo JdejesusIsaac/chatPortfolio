@@ -83,6 +83,8 @@ export interface Social {
   twitter: string;
   securityProfile?: string;
   code4rena?: string;
+  sherlock?: string;
+  secure3?: string;
   portfolio?: string;
   kaggle?: string;
   leetcode?: string;

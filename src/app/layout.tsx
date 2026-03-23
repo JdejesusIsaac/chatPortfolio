@@ -12,14 +12,23 @@ export const metadata: Metadata = {
     default: "Juan Isaac - AI/Web3 Engineer | Secure Agentic Systems",
     template: "%s | Juan Isaac"
   },
-  description: "AI/Web3 engineer building secure agentic systems with ElizaOS, LangGraph, and Coinbase AgentKit. Founder of AllowMe.ai. Coinbase Ambassador. Smart contract security researcher.",
+  description: "Founder of createPersona.ai and StableShield. AI/Web3 engineer building secure agentic systems with ElizaOS, LangGraph, and Coinbase AgentKit. Smart contract security researcher.",
   keywords: [
     "Juan Isaac",
     "AI Engineer",
     "Web3 Developer",
+    "createPersona.ai",
+    "StableShield",
     "ElizaOS",
     "LangGraph",
     "Coinbase AgentKit",
+    "x402",
+    "ERC-8004",
+    "Virtuals ACP",
+    "MCP Server",
+    "Coinbase Smart Wallet",
+    "Sherlock",
+    "Secure3",
     "Smart Contract Security",
     "AI Agents",
     "Blockchain Developer",
@@ -62,7 +71,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://juanisaac.dev",
     title: "Juan Isaac - AI/Web3 Engineer | Secure Agentic Systems",
-    description: "Building secure AI agents that move money safely onchain. ElizaOS, LangGraph, Coinbase AgentKit, and Solidity expert. Founder of AllowMe.ai.",
+    description: "Founder of createPersona.ai and StableShield. Building secure AI agents that move money safely onchain. ElizaOS, LangGraph, Coinbase AgentKit, and Solidity expert.",
     siteName: "Juan Isaac Portfolio",
     images: [
       {
@@ -78,8 +87,8 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Juan Isaac - AI/Web3 Engineer",
     description: "Building secure AI agents with ElizaOS, LangGraph, and Coinbase AgentKit. Smart contract security researcher.",
-    creator: "@juanisaac",
-    site: "@juanisaac",
+    creator: "@StableShieldAI",
+    site: "@StableShieldAI",
     images: [{
       url: "https://juanisaac.dev/og-image.png",
       alt: "Juan Isaac Portfolio"
@@ -101,9 +110,7 @@ export const metadata: Metadata = {
   },
   category: "technology",
   classification: "Portfolio Website",
-  other: {
-    "google-site-verification": "your-google-verification-code-here",
-  },
+  other: {},
 };
 
 export default function RootLayout({
@@ -128,9 +135,9 @@ export default function RootLayout({
               "url": "https://juanisaac.dev",
               "image": "https://juanisaac.dev/profile.jpeg",
               "sameAs": [
-                "https://github.com/juanisaac",
-                "https://linkedin.com/in/juanisaac",
-                "https://x.com/juanisaac"
+                "https://github.com/JdejesusIsaac",
+                "https://linkedin.com/in/juandisaac",
+                "https://x.com/StableShieldAI"
               ],
               "worksFor": {
                 "@type": "Organization",
@@ -149,7 +156,19 @@ export default function RootLayout({
                 "Next.js",
                 "TypeScript"
               ],
-              "description": "AI/Web3 engineer building secure agentic systems. Founder of AllowMe.ai. Coinbase Developer Platform Ambassador. Smart contract security researcher at Code4rena and Secure3."
+              "description": "Founder of createPersona.ai and StableShield. AI/Web3 engineer building secure agentic systems. Coinbase Developer Platform Ambassador. Smart contract security researcher at Code4rena and Secure3.",
+              "foundingOf": [
+                {
+                  "@type": "Organization",
+                  "name": "createPersona.ai",
+                  "url": "https://createpersona.xyz"
+                },
+                {
+                  "@type": "Organization", 
+                  "name": "StableShield",
+                  "url": "https://stableshield.work"
+                }
+              ]
             })
           }}
         />

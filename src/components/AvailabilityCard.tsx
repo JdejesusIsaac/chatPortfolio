@@ -173,6 +173,8 @@ const AvailabilityCard = ({ data }: AvailabilityCardProps) => {
           What I bring
         </p>
         <div className="text-foreground text-sm space-y-2">
+          <p><strong>createPersona.ai:</strong> Voice-first AI personalization — describe yourself once, get custom instructions for ChatGPT, Claude, and Grok. Live at createpersona.xyz.</p>
+          <p><strong>StableShield:</strong> Trustless wallet security agent on Base — scans, scores, and revokes dangerous ERC-20 approvals across 6 chains. Live at stableshield.work with 348 tests passing.</p>
           <p><strong>AllowMe.ai:</strong> Designed TutorAgent → Evaluator flow with allow-listed payouts; GOAT wallet integration to send ETH; zero unauthorized transfers in testing; parent audit trail.</p>
           <p><strong>PromptQuest:</strong> Prompt → image/video generation → IPFS → Crossmint email minting (Solana testnet); workshop-ready UX for creators/educators.</p>
           <p><strong>Windsurf Vibe Competition (Top-3):</strong> Built and deployed a live Next.js app in &lt;45 minutes using AI-assisted development.</p>

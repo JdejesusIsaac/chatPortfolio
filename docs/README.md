@@ -21,10 +21,10 @@ MIT License details including:
 
 ## 🚀 Quick Links
 
-- **Main Repository**: [GitHub](https://github.com/anujjainbatu/portfolio)
-- **Live Demo**: [Portfolio Demo](https://portfolio.anujjainbatu.tech/)
-- **Issues**: [Report Bugs](https://github.com/anujjainbatu/portfolio/issues)
-- **Discussions**: [Community Forum](https://github.com/anujjainbatu/portfolio/discussions)
+- **Main Repository**: [GitHub](https://github.com/JdejesusIsaac/portfolio)
+- **Live Demo**: [Portfolio Demo](https://juanisaac.dev/)
+- **Issues**: [Report Bugs](https://github.com/JdejesusIsaac/portfolio/issues)
+- **Discussions**: [Community Forum](https://github.com/JdejesusIsaac/portfolio/discussions)
 
 ## 📖 Additional Resources
 
@@ -48,12 +48,12 @@ MIT License details including:
 ## 🆘 Getting Help
 
 ### Community Support
-- 💬 [GitHub Discussions](https://github.com/anujjainbatu/portfolio/discussions) - Community Q&A
-- 🐛 [GitHub Issues](https://github.com/anujjainbatu/portfolio/issues) - Bug reports and feature requests
+- 💬 [GitHub Discussions](https://github.com/JdejesusIsaac/portfolio/discussions) - Community Q&A
+- 🐛 [GitHub Issues](https://github.com/JdejesusIsaac/portfolio/issues) - Bug reports and feature requests
 
 ### Direct Contact
-- 📧 **Email**: anujjainbatu@gmail.com
-- 🐦 **Twitter**: [@anujjainbatu](https://twitter.com/anujjainbatu)
+- 📧 **Email**: juandejesusisaac@gmail.com
+- 🐦 **Twitter**: [@StableShieldAI](https://twitter.com/StableShieldAI)
 
 ## 🔄 Documentation Updates
 
